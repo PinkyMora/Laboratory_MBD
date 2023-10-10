@@ -1,0 +1,159 @@
+2023.10.10 18:31:04 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING' for client Visual Studio Code 1.75.1.
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\metals (H2 2.1)
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+oct 10, 2023 6:31:04 P. M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+oct 10, 2023 6:31:05 P. M. org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+oct 10, 2023 6:31:05 P. M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.022s)
+2023.10.10 18:31:05 INFO  time: initialize in 0.7s
+oct 10, 2023 6:31:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.10.10 18:31:07 WARN  Build server is not auto-connectable.
+2023.10.10 18:31:07 WARN  no build tool detected in workspace 'C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.10.10 18:32:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Fran/Desktop/MASTER/JAVA_SELF_TRAINING/Main.java. Output:
+
+2023.10.10 18:32:15 INFO  no build target found for C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\Main.java. Using presentation compiler with project's scala-library version: 3.3.0
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 227
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+oct 10, 2023 6:32:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 237
+oct 10, 2023 6:32:19 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-19-001
+oct 10, 2023 6:32:19 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-19-289
+oct 10, 2023 6:32:19 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-19-457
+oct 10, 2023 6:32:20 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-20-010
+oct 10, 2023 6:32:21 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-21-158
+oct 10, 2023 6:32:24 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-24-018
+oct 10, 2023 6:32:47 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-47-194
+oct 10, 2023 6:32:49 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-49-393
+oct 10, 2023 6:32:51 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-51-606
+oct 10, 2023 6:32:52 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-52-006
+oct 10, 2023 6:32:52 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-52-607
+oct 10, 2023 6:32:52 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-52-972
+oct 10, 2023 6:32:53 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-53-132
+oct 10, 2023 6:32:53 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-53-880
+oct 10, 2023 6:32:53 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-53-945
+oct 10, 2023 6:32:54 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-54-110
+oct 10, 2023 6:32:54 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-54-421
+oct 10, 2023 6:32:54 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-54-700
+oct 10, 2023 6:32:55 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-55-365
+oct 10, 2023 6:32:55 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-55-709
+oct 10, 2023 6:32:55 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-55-813
+oct 10, 2023 6:32:56 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-56-038
+oct 10, 2023 6:32:56 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-56-092
+oct 10, 2023 6:32:56 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-56-679
+oct 10, 2023 6:32:56 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-56-778
+oct 10, 2023 6:32:56 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-56-951
+oct 10, 2023 6:32:57 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-57-184
+oct 10, 2023 6:32:57 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-57-386
+oct 10, 2023 6:32:57 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-57-469
+oct 10, 2023 6:32:58 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-58-467
+oct 10, 2023 6:32:58 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-58-651
+oct 10, 2023 6:32:59 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-32-59-583
+oct 10, 2023 6:33:00 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-00-034
+oct 10, 2023 6:33:00 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-00-483
+oct 10, 2023 6:33:00 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-00-985
+oct 10, 2023 6:33:01 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-01-464
+oct 10, 2023 6:33:01 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-01-905
+oct 10, 2023 6:33:02 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-02-160
+oct 10, 2023 6:33:02 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-02-452
+oct 10, 2023 6:33:05 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-05-503
+2023.10.10 18:33:06 WARN  no build target for: C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\Main.java
+oct 10, 2023 6:33:06 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-06-244
+oct 10, 2023 6:33:19 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-33-19-260
+oct 10, 2023 6:37:59 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-37-59-628
+oct 10, 2023 6:38:00 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-38-00-577
+oct 10, 2023 6:38:02 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-38-02-111
+oct 10, 2023 6:46:37 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-46-37-115
+oct 10, 2023 6:46:37 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-46-37-393
+oct 10, 2023 6:46:38 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-46-38-596
+2023.10.10 18:46:39 WARN  no build target for: C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\Main.java
+oct 10, 2023 6:46:39 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_18-46-39-867
+2023.10.10 19:23:43 WARN  no build target for: C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\volumen\Main.java
+oct 10, 2023 7:23:43 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_19-23-43-442
+oct 10, 2023 7:23:44 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Fran\Desktop\MASTER\JAVA_SELF_TRAINING\.metals\.reports\metals-full\2023-10-10\r_compiler-error_19-23-44-344
+2023.10.10 19:44:34 INFO  Shutting down server
+2023.10.10 19:44:34 INFO  shutting down Metals
+2023.10.10 19:44:34 INFO  Exiting server
