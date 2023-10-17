@@ -1,10 +1,15 @@
-FROM amazoncorretto:21
+FROM amazoncorretto:21 as build
 
-WORKDIR /JAVA_SELF_TRAINING
+WORKDIR /app/
 
-#COPY ./Main.java ./Main.java
+COPY volumen/Main.java /app/
 
-#RUN javac ./Main.java
+RUN javac Main.java
 
+FROM amazoncorretto:21 as execute
 
-ENTRYPOINT [ "javac" ]
+WORKDIR /app/
+
+COPY --from=build /app/Main.class /app/Main.class 
+
+ENTRYPOINT [ "java", "Main" ]
